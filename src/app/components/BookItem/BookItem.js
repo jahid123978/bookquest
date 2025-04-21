@@ -40,32 +40,6 @@ const BookItem = ({ book }) => {
       </div>
     </div>
     </>
-    // <article className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-    //   {book.coverId && (
-    //     <div className="relative h-48 mb-4">
-    //       <Image
-    //         src={`https://covers.openlibrary.org/b/id/${book.coverId}-M.jpg`}
-    //         alt={`Cover for ${book.title}`}
-    //         // fill
-    //         width={400}
-    //         height={400}
-    //         className="object-contain"
-    //         // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-    //       />
-    //     </div>
-    //   )}
-    //   <h2 className="text-xl font-semibold mb-2">{book.title}</h2>
-    //   {book.authors && (
-    //     <p className="text-gray-600 mb-2">
-    //       by {book.authors.join(', ')}
-    //     </p>
-    //   )}
-    //   {book.year && (
-    //     <p className="text-sm text-gray-500">
-    //       First published: {book.year}
-    //     </p>
-    //   )}
-    // </article>
   );
 };
 
